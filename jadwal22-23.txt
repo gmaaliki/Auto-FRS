@@ -1,0 +1,8 @@
+Fisika_2 X 2 senin 0700 0900 X X
+Komputasi_Pervasif_dan_Jaringan_Sensor A 8 senin 0700 0900 104 RA
+Probabilitas_dan_Statistik A 4 senin 0700 0900 105a BA
+Pemrograman_Berbasis_Kerangka_Kerja A 6 senin 0700 0900 106 MN
+Pemrograman_Jaringan D 6 senin 0700 0900 LP2 HS
+Topik_Dalam_Komputasi_Awan A 2 senin 0700 0900 112 RM
+--baru sampe senin 0700 0900
+Manajemen_Basis_Data B 4 senin 1000 1200 105a SR

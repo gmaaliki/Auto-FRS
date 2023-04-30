@@ -1,0 +1,8 @@
+1. nama matkul
+2. semester
+3. jam dan hari
+4. kelas
+5. dosen
+6. eng class (opsional)
+
+Manajemen_Basis_Data B 4 senin 1000 1200 105A SR
