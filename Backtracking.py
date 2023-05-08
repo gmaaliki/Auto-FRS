@@ -22,7 +22,10 @@ class Backtracking:
             if '-' in self.attribute_array:
                 continue
             self.subject = Subject(self.attribute_array)
-            self.subject_arr.append(self.subject)
+
+            # Filter semester
+            if int(self.user_semester) == int(self.subject.semester):
+                self.subject_arr.append(self.subject)
     
     def find_combinations(self):
         self.intervals = []
@@ -39,12 +42,7 @@ class Backtracking:
                 self.results.append(self.path)
             return
 
-        print("langkah bt")
         for a in self.subject_arr:
-            # Mencocokkan semester
-            if int(a.semester) != int(self.user_semester):
-                continue
-
             self.flag = 0
 
             # Memeriksa apakah mata kuliah sudah diambil atau tidak
@@ -55,16 +53,7 @@ class Backtracking:
 
             # Memeriksa apakah waktu sudah terpakai atau tidak
             for times in self.intervals:
-                # print(int(a.start_hour) , " = " , int(times[0]))
-                # print(int(a.end_hour) , " = " , int(times[1]))
-                # if(int(a.start_hour)<int(times[1])):
-                #     print("fizz")
-
-                # if(int(a.end_hour)>int(times[0])):
-                #     print("buzz")
-
-                # print("------")
-                if (int(a.start_hour) < int(times[1])) and (int(a.end_hour) > int(times[0])):
+                if (a.day == times[0]) and (int(a.start_hour) < int(times[2])) and (int(a.end_hour) > int(times[1])):
                     self.flag = 1
                     break
 
@@ -72,15 +61,19 @@ class Backtracking:
                 continue
 
             self.path.append(a)
-            self.intervals.append((a.start_hour, a.end_hour))
+            self.intervals.append((a.day, a.start_hour, a.end_hour))
             self.sks_total += a.sks
 
             self.backtrack()
 
+            self.path.pop()
+            self.intervals.pop()
+            self.sks_total -= a.sks
+
     def printResults(self):
         for a in self.results:
             for subj in a:
-                print(subj.name + subj.subject_code)
+                print(subj.name + ' ' + subj.subject_code, ' ', subj.start_hour, ' ', subj.end_hour)
         print("------------------------")
 
 def main():
