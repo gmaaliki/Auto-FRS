@@ -86,7 +86,7 @@ Kecerdasan_Komputasional P 1 3 selasa 1800 2030 112 CF
 -
 Fisika_2 X 2 3 rabu 0700 0900 SKPB_reg X
 Sistem_Operasi D 4 4 rabu 0700 0900 101 BS
-Peracangan_dan_Analisis_Algoritma C 4 4 rabu 0700 0900 104 RL
+Perancangan_dan_Analisis_Algoritma C 4 4 rabu 0700 0900 104 RL
 Teori_Graf_dan_Otomata B 6 3 rabu 0700 0900 105b AW
 Probabilitas_dan_Statistik B 4 3 rabu 0700 0900 105a BA
 Analisis_dan_Perancangan_Sistem_Informasi E 4 3 rabu 0700 0900 106 FB

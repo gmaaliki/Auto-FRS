@@ -39,19 +39,37 @@ class Backtracking:
                 self.results.append(self.path)
             return
 
+        print("langkah bt")
         for a in self.subject_arr:
             # Mencocokkan semester
             if int(a.semester) != int(self.user_semester):
                 continue
+
+            self.flag = 0
+
             # Memeriksa apakah mata kuliah sudah diambil atau tidak
             for subj in self.path:
                 if a.name == subj.name:
-                    continue
-            
+                    self.flag = 1
+                    break
+
             # Memeriksa apakah waktu sudah terpakai atau tidak
             for times in self.intervals:
-                if (a.start_hour < times[1]) and (a.end_hour > times[0]):
-                    continue
+                # print(int(a.start_hour) , " = " , int(times[0]))
+                # print(int(a.end_hour) , " = " , int(times[1]))
+                # if(int(a.start_hour)<int(times[1])):
+                #     print("fizz")
+
+                # if(int(a.end_hour)>int(times[0])):
+                #     print("buzz")
+
+                # print("------")
+                if (int(a.start_hour) < int(times[1])) and (int(a.end_hour) > int(times[0])):
+                    self.flag = 1
+                    break
+
+            if self.flag == 1:
+                continue
 
             self.path.append(a)
             self.intervals.append((a.start_hour, a.end_hour))
@@ -67,6 +85,7 @@ class Backtracking:
 
 def main():
     input_file = open('jadwal22-23.txt', 'r')
+    # user_semester = input("Enter Semester: ")
     user_semester = 4
     bt = Backtracking(input_file, user_semester)
     bt.find_combinations()

@@ -5,4 +5,6 @@
 5. dosen
 6. eng class (opsional)
 
-Manajemen_Basis_Data B 4 senin 1000 1200 105A SR
+Komputasi_Pervasif_dan_Jaringan_Sensor A 8 3 senin 0700 0900 104 RA
+
+format : nama_matkul kode_kelas semeseter sks hari jam_mulai jam_selesai kelas inisial dosen
