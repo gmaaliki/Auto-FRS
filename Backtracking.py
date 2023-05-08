@@ -1,3 +1,5 @@
+import time
+
 class Subject:
     def __init__(self, attribute_array):
         self.name = attribute_array[0]
@@ -40,6 +42,7 @@ class Backtracking:
     def backtrack(self):
         if self.sks_total > 18 and self.sks_total < 24:
             if self.path:
+                self.path = self.path
                 self.path_res = tuple(self.path.copy())
                 self.results.append(self.path_res)
             return
@@ -82,21 +85,27 @@ class Backtracking:
             self.sks_total -= a.sks
 
     def printResults(self):
-        self.count_res = 0
         for a in self.results:
-            self.count_res += 1
             for subj in a:
                 print(subj.name, subj.subject_code, subj.day, subj.start_hour, subj.end_hour)
             print("------------------------")
-        print("There are", self.count_res, "combinations")
+        print("There are", len(self.results), "combinations")
 
 
 def main():
     input_file = open('jadwal22-23.txt', 'r')
     # user_semester = input("Enter Semester: ")
     user_semester = 4
+
+    start = time.time()
+
     bt = Backtracking(input_file, user_semester)
     bt.find_combinations()
+
+    end = time.time()
+    total_time = end - start
+
+    print("execution time: ", total_time)
 
 if __name__ == "__main__":
     main()
