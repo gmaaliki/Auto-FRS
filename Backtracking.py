@@ -13,6 +13,7 @@ class Subject:
 class Backtracking:
     def __init__(self, input_file, user_semester):
         self.subject_arr = []
+        self.schedule_set = set()
 
         # User inputs
         self.user_semester = user_semester
@@ -39,7 +40,8 @@ class Backtracking:
     def backtrack(self):
         if self.sks_total > 18 and self.sks_total < 24:
             if self.path:
-                self.results.append(self.path)
+                self.path_res = tuple(self.path.copy())
+                self.results.append(self.path_res)
             return
 
         for a in self.subject_arr:
@@ -57,12 +59,21 @@ class Backtracking:
                     self.flag = 1
                     break
 
+            # Memeriksa apakah kombinasinya sudah ada atau tidak
+            self.temp = self.path.copy()
+            self.temp.append(a)
+            self.temp.sort(key= lambda x: x.name)
+            self.temp = tuple(self.temp)
+            if self.temp in self.schedule_set:
+                self.flag = 1
+
             if self.flag == 1:
                 continue
 
             self.path.append(a)
             self.intervals.append((a.day, a.start_hour, a.end_hour))
             self.sks_total += a.sks
+            self.schedule_set.add(self.temp)
 
             self.backtrack()
 
@@ -71,10 +82,14 @@ class Backtracking:
             self.sks_total -= a.sks
 
     def printResults(self):
+        self.count_res = 0
         for a in self.results:
+            self.count_res += 1
             for subj in a:
-                print(subj.name + ' ' + subj.subject_code, ' ', subj.start_hour, ' ', subj.end_hour)
-        print("------------------------")
+                print(subj.name, subj.subject_code, subj.day, subj.start_hour, subj.end_hour)
+            print("------------------------")
+        print("There are", self.count_res, "combinations")
+
 
 def main():
     input_file = open('jadwal22-23.txt', 'r')
