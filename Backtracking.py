@@ -11,11 +11,16 @@ class Subject:
         self.end_hour = attribute_array[6]
         self.class_name = attribute_array[7]
         self.lecturer = attribute_array[8]
+        self.status = attribute_array[9]
 
 class Backtracking:
     def __init__(self, input_file, user_semester):
         self.subject_arr = []
         self.schedule_set = set()
+        self.intervals = []
+        self.path = []
+        self.results = []
+        self.sks_total = 0
 
         # User inputs
         self.user_semester = user_semester
@@ -31,16 +36,23 @@ class Backtracking:
                 self.subject_arr.append(self.subject)
     
     def find_combinations(self):
-        self.intervals = []
-        self.path = []
-        self.results = []
-        self.sks_total = 0
-
         self.backtrack()
         self.printResults()
-    
+        
+    def add_subject(self, subject_name, subject_code):
+        a = None
+
+        for temp in self.subject_arr:
+            if temp.name == subject_name and temp.subject_code == subject_code:
+                a = temp
+
+        if a is not None:
+            self.path.append(a)
+            self.intervals.append((a.day, a.start_hour, a.end_hour))
+            self.sks_total += a.sks
+
     def backtrack(self):
-        if self.sks_total > 18 and self.sks_total < 24:
+        if self.sks_total > 18:
             if self.path:
                 self.path = self.path
                 self.path_res = tuple(self.path.copy())
@@ -91,15 +103,31 @@ class Backtracking:
             print("------------------------")
         print("There are", len(self.results), "combinations")
 
-
 def main():
     input_file = open('jadwal22-23.txt', 'r')
-    # user_semester = input("Enter Semester: ")
-    user_semester = 4
+    user_semester = input("Enter Semester: ")
 
     start = time.time()
 
     bt = Backtracking(input_file, user_semester)
+    input_file.close()
+
+    print("\nAvailable subject: ")
+    set_arr = set()
+
+    # Prints available subject for the semester
+    # Note : Mungkin di webnya dikasih waktunya jg biar keren
+    for a in bt.subject_arr:
+        if a.name not in set_arr:
+            print(a.name)
+        set_arr.add(a.name)
+
+    while (input("\nAdd class preference? (y/n)") == "y"):
+        subject_name = input("Enter subject name : ")
+        subject_code = input("Enter subject code : ")
+        bt.add_subject(subject_name, subject_code)
+    
+
     bt.find_combinations()
 
     end = time.time()

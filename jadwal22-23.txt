@@ -1,196 +1,138 @@
-Fisika_2 X 2 3 senin 0700 0900 SKPB_Reg X
-Sistem_Operasi A 4 4 senin 0700 0900 103 BJ
-Komputasi_Pervasif_dan_Jaringan_Sensor A 8 3 senin 0700 0900 104 RA
-Probabilitas_dan_Statistik A 4 3 senin 0700 0900 105a BA
-Pemrograman_Berbasis_Kerangka_Kerja A 6 3 senin 0700 0900 106 MN
-Pemrograman_Jaringan D 6 3 senin 0700 0900 LP2 HS
-Topik_Dalam_Komputasi_Awan A 2 3 senin 0700 0900 112 RM
+Fisika_2 X 2 3 senin 0700 0900 SKPB_Reg X wajib
+Sistem_Operasi A 4 4 senin 0700 0900 103 BJ wajib
+Komputasi_Pervasif_dan_Jaringan_Sensor A 8 3 senin 0700 0900 104 RA pilihan
+Probabilitas_dan_Statistik A 4 3 senin 0700 0900 105a BA wajib
+Pemrograman_Berbasis_Kerangka_Kerja A 6 3 senin 0700 0900 106 MN wajib
+Pemrograman_Jaringan D 6 3 senin 0700 0900 LP2 HS wajib
 -
-Fisika_2 IUP 2 3 senin 0900 1100 SKPB_IUP X
-Sistem_Digital A 2 3 senin 1000 1200 101 RA
-Manajemen_Basis_Data A 4 3 senin 1000 1200 102 DS
-Animasi_Komputer_dan_Pemodelan_3D A 8 3 senin 1000 1200 103 SA
-Sistem_Digital D 2 3 senin 1000 1200 104 TA
-Analisis_dan_Perancangan_Sistem_Informasi A 4 3 senin 1000 1200 105b AL
-Manajemen_Basis_Data B 4 3 senin 1000 1200 105a SR
-Pemodelan_dan_Simulasi A 8 3 senin 1000 1200 106 IL
-Sistem_Operasi IUP 4 4 senin 1000 1200 108 AM
-Pemrograman_Jaringan A 6 3 senin 1000 1200 LP2 RM
-Metodologi_Penelitian A 2 3 senin 1000 1200 111 SD
+Sistem_Digital A 2 3 senin 1000 1200 101 RA wajib
+Manajemen_Basis_Data A 4 3 senin 1000 1200 102 DS wajib
+Animasi_Komputer_dan_Pemodelan_3D A 8 3 senin 1000 1200 103 SA pilihan
+Sistem_Digital D 2 3 senin 1000 1200 104 TA wajib
+Analisis_dan_Perancangan_Sistem_Informasi A 4 3 senin 1000 1200 105b AL wajib
+Manajemen_Basis_Data B 4 3 senin 1000 1200 105a SR wajib
+Pemodelan_dan_Simulasi A 8 3 senin 1000 1200 106 IL pilihan
+Pemrograman_Jaringan A 6 3 senin 1000 1200 LP2 RM wajib
 -
-Wawasan_dan_Aplikasi_Teknologi X 8 2 senin 1300 1500 SKPB_reg X
-Struktur_Data B 2 3 senin 1300 1500 101 YP
-Game_Cerdas A 6 3 senin 1300 1500 103 DH
-Analisis_dan_Perancangan_Sistem_Informasi IUP 4 3 senin 1300 1500 104 AL
-Pemrograman_Web A 5 3 senin 1300 1500 105a FB
-Struktur_Data IUP 2 3 senin 1300 1500 108 DP
-Interaksi_Manusia_dan_Komputer LP1 6 3 senin 1300 1500 LP1 HF
-Manajemen_Basis_Data C 4 3 senin 1300 1500 LP2 MN
-Topik_Dalam_Manajemen_Proyek_Perangkat_Lunak A 2 3 senin 1300 1500 111 RS
-Topik_Dalam_Rekayasa_Kebutuhan A 2 3 senin 1300 1500 112 DO
+Wawasan_dan_Aplikasi_Teknologi X 8 2 senin 1300 1500 SKPB_reg X wajib
+Struktur_Data B 2 3 senin 1300 1500 101 YP wajib
+Game_Cerdas A 6 3 senin 1300 1500 103 DH pilihan
+Pemrograman_Web A 5 3 senin 1300 1500 105a FB aksel
+Interaksi_Manusia_dan_Komputer LP1 6 3 senin 1300 1500 LP1 HF wajib
+Manajemen_Basis_Data C 4 3 senin 1300 1500 LP2 MN wajib
 -
-Sistem_Digital B 2 3 senin 1500 1700 101 WS
-Pemrograman_Jaringan B 6 3 senin 1600 1800 LP2 BJ
-Topik_Dalam_Pemodelan_dan_Simulasi P 2 3 senin 1600 1800 112 JL
--
-Topik_Dalam_Komputasi_Awan P 2 3 senin 1800 2030 111 BJ
-Topik_Dalam_Grafika_Komputer P 2 3 senin 1800 2030 112 DH
+Sistem_Digital B 2 3 senin 1500 1700 101 WS wajib
+Pemrograman_Jaringan B 6 3 senin 1600 1800 LP2 BJ wajib
 -
 -
-Bahasa_Inggris IUP 2 2 selasa 0700 0900 SKPB_IUP X
-Sistem_Digital C 2 3 selasa 0800 1000 101 TA
-Struktur_Data C 2 3 selasa 0700 0900 102 DS
-Analisis_Jejaring_Sosial A 8 3 selasa 0700 0900 103 DP
-Perancangan_dan_Analisis_Algoritma A 4 4 selasa 0700 0900 104 RL
-Teori_Graf_dan_Otomata A 6 3 selasa 0700 0900 105b AW
-Forensik_Digital A 8 3 selasa 0700 0900 105a HS
-Probabilitas_dan_Statistik IUP 4 3 selasa 0700 0900 108 IL
-Interaksi_Manusia_dan_Komputer B 6 3 selasa 0700 0900 LP1 SA
-Kecerdasan_Komputasional A 1 3 selasa 0700 0900 111 NS
-Topik_Dalam_Komputasi_Bergerak A 2 3 selasa 0700 0900 112 RA
+Sistem_Digital C 2 3 selasa 0800 1000 101 TA wajib
+Struktur_Data C 2 3 selasa 0700 0900 102 DS wajib
+Analisis_Jejaring_Sosial A 8 3 selasa 0700 0900 103 DP pilihan
+Perancangan_dan_Analisis_Algoritma A 4 4 selasa 0700 0900 104 RL wajib
+Teori_Graf_dan_Otomata A 6 3 selasa 0700 0900 105b AW wajib
+Forensik_Digital A 8 3 selasa 0700 0900 105a HS pilihan
+Interaksi_Manusia_dan_Komputer B 6 3 selasa 0700 0900 LP1 SA wajib
+Kecerdasan_Komputasional A 1 3 selasa 0700 0900 111 NS wajib
 -
-Matematika_2 IUP 2 3 selasa 0900 1100 SKPB_IUP X
-Pengolahan_Citra_Digital A 6 3 selasa 1000 1200 102 HT
-Sistem_Operasi B 4 4 selasa 1000 1200 103 AM
-Rekayasa_Kebutuhan A 6 3 selasa 1000 1200 104 RN
-Penjaminan_Mutu_Perangkat_Lunak A 8 3 selasa 1000 1200 105b ST
-Analisis_dan_Perancangan_Sistem_Informasi B 4 3 selasa 1000 1200 105a SR
-Pemrograman_Berbasis_Kerangka_Kerja B 6 3 selasa 1000 1200 106 FB
-Perancangan_dan_Analisis_Algoritma IUP 4 4 selasa 1000 1200 108 AB
-Kecerdasan_Buatan A 4 3 selasa 1000 1200 LP1 DA
-Pemrograman_Jaringan C 6 3 selasa 1000 1200 LP2 RM
-Topik_Dalam_Visi_Komputer A 2 3 selasa 1000 1200 111 NS
+Pengolahan_Citra_Digital A 6 3 selasa 1000 1200 102 HT pilihan
+Sistem_Operasi B 4 4 selasa 1000 1200 103 AM wajib
+Rekayasa_Kebutuhan A 6 3 selasa 1000 1200 104 RN wajib
+Penjaminan_Mutu_Perangkat_Lunak A 8 3 selasa 1000 1200 105b ST pilihan
+Analisis_dan_Perancangan_Sistem_Informasi B 4 3 selasa 1000 1200 105a SR wajib
+Pemrograman_Berbasis_Kerangka_Kerja B 6 3 selasa 1000 1200 106 FB wajib
+Kecerdasan_Buatan A 4 3 selasa 1000 1200 LP1 DA wajib
+Pemrograman_Jaringan C 6 3 selasa 1000 1200 LP2 RM wajib
 -
-Agama_Islam X 2 2 selasa 1100 1300 SKPB_reg X
-Rekayasa_Kebutuhan B 6 3 selasa 1300 1500 102 RN
-Kecerdasan_Buatan B 4 3 selasa 1300 1500 103 DA
-Perancangan_dan_Analisis_Algoritma B 4 4 selasa 1300 1500 104 RL
-Rekayasa_Kebutuhan C 6 3 selasa 1300 1500 105b AL
-Analisis_dan_Perancangan_Sistem_Informasi C 4 3 selasa 1300 1500 105a SR
-Deep_Learning A 8 3 selasa 1300 1500 106 CF
-Manajemen_Basis_Data IUP 4 3 selasa 1300 1500 108 MN-KR
-Interaksi_Manusia_dan_Komputer C 6 3 selasa 1300 1500 LP1 SA
-Topik_Dalam_Rekayasa_Sistem_Berbasis_Pengetahuan A 2 3 selasa 1300 1500 111 RS-SC
-Topik_Dalam_Penjaminan_Kualitas_Perangkat_Lunak A 2 3 selasa 1300 1500 112 ST
+Agama_Islam X 2 2 selasa 1100 1300 SKPB_reg X wajib
+Rekayasa_Kebutuhan B 6 3 selasa 1300 1500 102 RN wajib
+Kecerdasan_Buatan B 4 3 selasa 1300 1500 103 DA wajib
+Perancangan_dan_Analisis_Algoritma B 4 4 selasa 1300 1500 104 RL wajib
+Rekayasa_Kebutuhan C 6 3 selasa 1300 1500 105b AL wajib
+Analisis_dan_Perancangan_Sistem_Informasi C 4 3 selasa 1300 1500 105a SR wajib
+Deep_Learning A 8 3 selasa 1300 1500 106 CF pilihan
+Interaksi_Manusia_dan_Komputer C 6 3 selasa 1300 1500 LP1 SA wajib
 -
-Matematika_2 X 2 3 selasa 1500 1700 SKPB_reg X
-Kewarganegaraan IUP 2 2 selasa 1500 1700 SKPB_IUP X
-Analisis_dan_Perancangan_Sistem_Informasi D 4 3 selasa 1500 1700 105b SR
-Teknologi_IoT A 8 3 selasa 1500 1700 106 AM
-Topik_Dalam_Pengamanan_Jaringan P 2 3 selasa 1600 1800 111 BS
--
-Topik_Dalam_Analisis_Data_Deret_Waktu P 2 3 selasa 1800 2030 LP2 AS
-Topik_Dalam_Rekayasa_Sistem_Berbasis_Pengetahuan P 2 3 selasa 1800 2030 111 RS-SC
-Kecerdasan_Komputasional P 1 3 selasa 1800 2030 112 CF
+Matematika_2 X 2 3 selasa 1500 1700 SKPB_reg X wajib
+Analisis_dan_Perancangan_Sistem_Informasi D 4 3 selasa 1500 1700 105b SR wajib
+Teknologi_IoT A 8 3 selasa 1500 1700 106 AM pilihan
 -
 -
-Fisika_2 X 2 3 rabu 0700 0900 SKPB_reg X
-Sistem_Operasi D 4 4 rabu 0700 0900 101 BS
-Perancangan_dan_Analisis_Algoritma C 4 4 rabu 0700 0900 104 RL
-Teori_Graf_dan_Otomata B 6 3 rabu 0700 0900 105b AW
-Probabilitas_dan_Statistik B 4 3 rabu 0700 0900 105a BA
-Analisis_dan_Perancangan_Sistem_Informasi E 4 3 rabu 0700 0900 106 FB
-Interaksi_Manusia_dan_Komputer IUP 6 3 rabu 0700 0900 108 AY
-Interaksi_Manusia_dan_Komputer D 6 3 rabu 0700 0900 LP1 HF
-Topik_Dalam_Analisis_Data_Deret_Waktu A 2 3 rabu 0700 0900 112 JL-AS
 -
-Fisika_2 IUP 2 3 rabu 0900 1100 SKPB_IUP X
-Sistem_Digital E 2 3 rabu 1000 1200 101 SD
-Manajemen_Basis_Data D 4 3 rabu 1000 1200 102 SC
-Sistem_Operasi C 4 4 rabu 1000 1200 103 AM
-Kecerdasan_Buatan D 4 3 rabu 1000 1200 104 NS
-Analisis_dan_Perancangan_Sistem_Informasi F 4 3 rabu 1000 1200 105b ST
-Tata_Kelola_Teknologi_Informasi A 8 3 rabu 1000 1200 105a AL
-Pemrograman_Berbasis_Kerangka_Kerja C 6 3 rabu 1000 1200 106 RJ
-Rekayasa_Kebutuhan IUP 6 3 rabu 1000 1200 108 RN
-Pemrograman_Jaringan E 6 3 rabu 1000 1200 LP1 BS
-Data_Mining A 6 3 rabu 1000 1200 LP2 DA
-Topik_Dalam_Pengolahan_Citra_Digital A 2 3 rabu 1000 1200 111 HT
-Struktur_Data E 2 3 rabu 1000 1200 112 AR
+Fisika_2 X 2 3 rabu 0700 0900 SKPB_reg X wajib
+Sistem_Operasi D 4 4 rabu 0700 0900 101 BS wajib
+Perancangan_dan_Analisis_Algoritma C 4 4 rabu 0700 0900 104 RL wajib
+Teori_Graf_dan_Otomata B 6 3 rabu 0700 0900 105b AW wajib
+Probabilitas_dan_Statistik B 4 3 rabu 0700 0900 105a BA wajib
+Analisis_dan_Perancangan_Sistem_Informasi E 4 3 rabu 0700 0900 106 FB wajib
+Interaksi_Manusia_dan_Komputer D 6 3 rabu 0700 0900 LP1 HF wajib
 -
-Wawasan_dan_Aplikasi_Teknologi IUP 8 2 rabu 1100 1300 SKPB_IUP X
-Agama_Islam IUP 2 2 rabu 1300 1500 SKPB_IUP X
-Audit_Sistem A 8 3 rabu 1300 1500 101 RS-KR
-Sistem_Digital G 2 3 rabu 1300 1500 103 WS-RA
-Kecerdasan_Buatan D 4 3 rabu 1300 1500 104 CF
-Probabilitas_dan_Statistik C 4 3 rabu 1300 1500 105a AS
-Perograman_Berbasis_Kerangka_Kerja D 6 3 rabu 1300 1500 106 FB
-Pemrograman_Web IUP 5 3 rabu 1300 1500 108 IS
-Pengantar_Pengembangan_Game A 3 3 rabu 1200 1400 LP1 IM
-Topik_Dalam_Pengaman_Jaringan A 2 3 rabu 1300 1500 112 TA
+Sistem_Digital E 2 3 rabu 1000 1200 101 SD wajib
+Manajemen_Basis_Data D 4 3 rabu 1000 1200 102 SC wajib
+Sistem_Operasi C 4 4 rabu 1000 1200 103 AM wajib
+Kecerdasan_Buatan D 4 3 rabu 1000 1200 104 NS wajib
+Analisis_dan_Perancangan_Sistem_Informasi F 4 3 rabu 1000 1200 105b ST wajib
+Tata_Kelola_Teknologi_Informasi A 8 3 rabu 1000 1200 105a AL pilihan
+Pemrograman_Berbasis_Kerangka_Kerja C 6 3 rabu 1000 1200 106 RJ wajib
+Pemrograman_Jaringan E 6 3 rabu 1000 1200 LP1 BS wajib
+Data_Mining A 6 3 rabu 1000 1200 LP2 DA pilihan
+Struktur_Data E 2 3 rabu 1000 1200 112 AR wajib
 -
-Sistem_Digital F 2 3 rabu 1500 1700 101 WS
-Pengantar_Sistem_Cerdas A 3 3 rabu 1500 1700 102 DA
-Perancangan_dan_Analisis_Algoritma D 4 4 rabu 1500 1700 104 AB
-Kecerdasan_Buatan IUP 4 3 rabu 1500 1700 108 SC
-Sistem_Game A 8 3 rabu 1500 1700 LP1 IM
-Komputasi_Berbasis_Jaringan P 1 3 rabu 1600 1800 112 TA-AM
-Topik_Dalam_Pengolahan_Citra_Digital P 2 3 rabu 1800 2030 112 NS
+Audit_Sistem A 8 3 rabu 1300 1500 101 RS-KR pilihan
+Sistem_Digital G 2 3 rabu 1300 1500 103 WS-RA wajib
+Kecerdasan_Buatan D 4 3 rabu 1300 1500 104 CF wajib
+Probabilitas_dan_Statistik C 4 3 rabu 1300 1500 105a AS wajib
+Pemrograman_Berbasis_Kerangka_Kerja D 6 3 rabu 1300 1500 106 FB wajib
+-
+Sistem_Digital F 2 3 rabu 1500 1700 101 WS wajib
+Perancangan_dan_Analisis_Algoritma D 4 4 rabu 1500 1700 104 AB wajib
+Sistem_Game A 8 3 rabu 1500 1700 LP1 IM pilihan
 -
 -
-Struktur_Data F 2 3 kamis 0700 0900 102 DS
-Manajemen_Basis_Data E 4 3 kamis 0700 0900 103 KR
-Perancangan_dan_Analisis_Algoritma E 4 4 kamis 0700 0900 103 IS
-Teori_Graf_dan_Otomata C 6 3 kamis 0700 0900 105b AW
-Probabilitas_dan_Statistik D 4 3 kamis 0700 0900 105a BA
-Pengembangan_Analisis_Algoritma A 6 3 kamis 0700 0900 106 RL
-Pemrograman_Jaringan IUP 6 3 kamis 0700 0900 108 BJ-HS
-Struktur_Data A 2 3 kamis 0700 0900 111 DP
-Struktur_Data D 2 3 kamis 0700 0900 112 AR
+Struktur_Data F 2 3 kamis 0700 0900 102 DS wajib
+Manajemen_Basis_Data E 4 3 kamis 0700 0900 103 KR wajib
+Perancangan_dan_Analisis_Algoritma E 4 4 kamis 0700 0900 103 IS wajib
+Teori_Graf_dan_Otomata C 6 3 kamis 0700 0900 105b AW wajib
+Probabilitas_dan_Statistik D 4 3 kamis 0700 0900 105a BA wajib
+Pengembangan_Analisis_Algoritma A 6 3 kamis 0700 0900 106 RL pilihan
+Struktur_Data A 2 3 kamis 0700 0900 111 DP wajib
+Struktur_Data D 2 3 kamis 0700 0900 112 AR wajib
 -
-Kewarganegaraan X 2 2 kamis 1100 1300 SKPB_reg X
-Matematika_2 IUP 2 3 kamis 0900 1100 SKPB_IUP X
-Pengantar_Logika_dan_Pemrograman A 3 3 kamis 1000 1200 101 RL
-Manajemen_Basis_Data F 4 3 kamis 1000 1200 102 RN
-Kecerdasan_Buatan E 4 3 kamis 1000 1200 104 AY
-Rekayasa_Kebutuhan D 6 3 kamis 1000 1200 105a DO
-Perancangan_Keamanan_Sistem_dan_Jaringan A 8 3 kamis 1000 1200 106 BS
-Sistem_Digital IUP 2 3 kamis 1100 1300 108 RA
+Kewarganegaraan X 2 2 kamis 1100 1300 SKPB_reg X wajib
+Pengantar_Logika_dan_Pemrograman A 3 3 kamis 1000 1200 101 RL wajib
+Manajemen_Basis_Data F 4 3 kamis 1000 1200 102 RN wajib
+Kecerdasan_Buatan E 4 3 kamis 1000 1200 104 AY wajib
+Rekayasa_Kebutuhan D 6 3 kamis 1000 1200 105a DO wajib
+Perancangan_Keamanan_Sistem_dan_Jaringan A 8 3 kamis 1000 1200 106 BS pilihan
 -
-Dasar_Pemrograman A 1 4 kamis 1300 1500 101 YP
-Grafika_Komputer A 5 3 kamis 1300 1500 102 SA
-Pemrograman_Berbasis_Kerangka_Kerja E 6 3 kamis 1300 1500 106 RJ
-Pemrograman_Berbasis_Kerangka_Kerja IUP 6 3 kamis 1300 1500 108 MN
-Topik_dalam_Pengembangan_Game_Realitas_Virtual_dan_Realitas_Augmentasi A 2 3 kamis 1300 1500 111 HF
+Dasar_Pemrograman A 1 4 kamis 1300 1500 101 YP ulang
+Grafika_Komputer A 5 3 kamis 1300 1500 102 SA aksel
+Pemrograman_Berbasis_Kerangka_Kerja E 6 3 kamis 1300 1500 106 RJ wajib
 -
-Matematika_2 X 2 3 kamis 1500 1700 SKPB_reg X
-Sistem_Operasi F 4 4 kamis 1500 1700 103 WS
-Perancangan_dan_Analisis_Algoritma F 4 4 kamis 1500 1700 104 AB
-Teori_Graf_dan_Otomata D 6 3 kamis 1500 1700 105b VH
-Perancangan_dan_Analisis_Algoritma G 4 4 kamis 1500 1700 105a IS
-Keamanan_Informasi_dan_Jaringan A 7 3 kamis 1500 1700 106 BS
-Keamanan_Informasi_dan_Jaringan IUP 7 3 kamis 1500 1700 108 BS
-Topik_Dalam_Pengembangan_Game_Realitas_Virtual_dan_Realitas_Augmentasi P 2 3 kamis 1600 1800 111 HF
-Topik_Dalam_Penjaminan_Kualitas_Perangkat_Lunak P 2 3 kamis 1600 1800 112 ST
--
-Metodologi_Penelitian P 2 3 kamis 1800 2030 111 X
+Matematika_2 X 2 3 kamis 1500 1700 SKPB_reg X wajib
+Sistem_Operasi F 4 4 kamis 1500 1700 103 WS wajib
+Perancangan_dan_Analisis_Algoritma F 4 4 kamis 1500 1700 104 AB wajib
+Teori_Graf_dan_Otomata D 6 3 kamis 1500 1700 105b VH wajib
+Perancangan_dan_Analisis_Algoritma G 4 4 kamis 1500 1700 105a IS wajib
 -
 -
-Bahasa_Inggris X 2 2 jumat 0700 0900 SKPB_reg X
-Big_Data A 8 3 jumat 0700 0900 101 MN
-Perancangan_dan_Analisis_Algoritma H 4 4 jumat 0700 0900 103 IS
-Sistem_Operasi E 4 4 jumat 0700 0900 104 HS
-Probabilitas_dan_Statistik E 4 3 jumat 0700 0900 105b AW
-Rekayasa_Kebutuhan E 6 3 jumat 0700 0900 105a DO
-Matematika_Diskrit IUP 6 3 jumat 0700 0900 108 JL
 -
-Agama_Non_Islam X 2 2 jumat 0900 1100 SKPB_reg X
-Agama_Non_Islam IUP 2 2 jumat 1000 1200 SKPB_IUP X
-Analisis_Data_Multivariat A 6 3 jumat 0900 1100 104 AS
-Matematika_Diskrit A 1 3 jumat 0900 1100 105a VH-JL-BA
-Arsitektur_Perangkat_Lunak A 6 3 jumat 0900 1100 106 RJ
-Metodologi_Penelitian B 2 3 jumat 0900 1100 112 BA
+Bahasa_Inggris X 2 2 jumat 0700 0900 SKPB_reg X wajib
+Big_Data A 8 3 jumat 0700 0900 101 MN pilihan
+Perancangan_dan_Analisis_Algoritma H 4 4 jumat 0700 0900 103 IS wajib
+Sistem_Operasi E 4 4 jumat 0700 0900 104 HS wajib
+Probabilitas_dan_Statistik E 4 3 jumat 0700 0900 105b AW wajib
+Rekayasa_Kebutuhan E 6 3 jumat 0700 0900 105a DO wajib
 -
-Struktur_Data G 2 3 jumat 1300 1500 102 YP
-Kecerdasan_Buatan F 4 3 jumat 1300 1500 103 DH
-Teori_Graf_dan_Otomata E 6 3 jumat 1300 1500 104 VH
-Probabilitas_dan_Statistik F 4 3 jumat 1300 1500 105b AS
-Rekayasa_Kebutuhan F 6 3 jumat 1300 1500 105a UY
-Teori_Graf_dan_Otomata IUP 6 3 jumat 1300 1500 106 Daz-Math
-Grafika_Komputer IUP 5 3 jumat 1300 1500 108 AY
-Topik_Dalam_Grafika_Komputer A 2 3 jumat 1500 1700 111 DH
+Agama_Non_Islam X 2 2 jumat 0900 1100 SKPB_reg X wajib
+Analisis_Data_Multivariat A 6 3 jumat 0900 1100 104 AS pilihan
+Matematika_Diskrit A 1 3 jumat 0900 1100 105a VH-JL-BA ulang
+Arsitektur_Perangkat_Lunak A 6 3 jumat 0900 1100 106 RJ pilihan
 -
-Metodologi_Penelitian Q 2 3 jumat 1800 2030 111 AS
-Rekayasa_Perangkat_Lunak P 1 3 jumat 1800 2030 112 UY
+Struktur_Data G 2 3 jumat 1300 1500 102 YP wajib
+Kecerdasan_Buatan F 4 3 jumat 1300 1500 103 DH wajib
+Teori_Graf_dan_Otomata E 6 3 jumat 1300 1500 104 VH wajib
+Probabilitas_dan_Statistik F 4 3 jumat 1300 1500 105b AS wajib
+Rekayasa_Kebutuhan F 6 3 jumat 1300 1500 105a UY wajib
+-
 -
 -
